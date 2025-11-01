@@ -5,6 +5,9 @@ project(Si5351A_Osc C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
+# これを一度だけ追加
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # === Pico SDK 初期化 ===
 pico_sdk_init()
 
