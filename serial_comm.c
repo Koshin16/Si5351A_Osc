@@ -4,10 +4,12 @@
 #include <string.h>
 #include <ctype.h>
 #include <stdarg.h>
+#include <stdint.h>
 #include "pico/stdlib.h"
 #include "pico/stdio_usb.h"
 #include "hardware/i2c.h"
 #include "serial_comm.h"
+#include "pico/error.h"
 
 #define SERIAL_BUF_LEN 64
 
